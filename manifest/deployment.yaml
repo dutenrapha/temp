@@ -45,7 +45,7 @@ data:
     </head>
     <body>
       <div class="box">
-        <h1>Argo CD 🚀 Voltei a ser um playground!</h1>
+        <h1>Argo CD 🚀 playground!</h1>
         <p>Deploy via GitOps funcionando!</p>
       </div>
     </body>
