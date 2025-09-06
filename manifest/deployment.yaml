@@ -30,7 +30,8 @@ spec:
   selector:
     app: playground
   ports:
-    - port: 8888
-      targetPort: 8000
+    - port: 8888           # Porta que o serviço expõe
+      targetPort: 8000     # Porta dentro do container
+      nodePort: 30088      # Porta exposta no host da sua máquina (qualquer valor entre 30000–32767)
       protocol: TCP
-  type: ClusterIP
+  type: NodePort
